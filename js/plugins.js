@@ -8,5 +8,7 @@ var $plugins =
 {"name":"AltMenuScreen","status":false,"description":"メニュー画面のレイアウトを変更します。","parameters":{}},
 {"name":"Yami_SkipTitle","status":false,"description":"Skip the title scene for testing purpose.","parameters":{}},
 {"name":"AnimVar","status":true,"description":"指定変数のイベントIDに指定変数のアニメーションを起動","parameters":{}},
-{"name":"ShiftEventPosition","status":true,"description":"イベントの表示位置を調整します","parameters":{}}
+{"name":"ShiftEventPosition","status":true,"description":"イベントの表示位置を調整します","parameters":{}},
+{"name":"OrangeMouseData","status":false,"description":"Will give you access to mouse's X, Y, TileX, TileY and Down Status for both left and right buttons <OrangeMouseData>","parameters":{"variableMouseX":"0","variableMouseY":"0","variableMouseTileX":"343","variableMouseTileY":"344","switchLeftButtonDown":"48","switchRightButtonDown":"0","switchMiddleButtonDown":"0"}},
+{"name":"ToMove","status":true,"description":"キャラクターを指定位置まで移動させる","parameters":{}}
 ];
